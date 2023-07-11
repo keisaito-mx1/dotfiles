@@ -21,6 +21,7 @@ brew "jq"
 brew "starship"
 brew "tree"
 brew "yq"
+brew "stow"
 
 cask "android-studio"
 cask "arc"
