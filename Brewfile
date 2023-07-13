@@ -9,6 +9,7 @@ brew "starship"
 brew "tree"
 brew "yq"
 brew "stow"
+brew "gpg"
 
 cask "android-studio"
 cask "arc"
