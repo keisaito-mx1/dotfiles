@@ -9,9 +9,9 @@ echo "Install Brewfile ..."
 which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew bundle --file ./Brewfile --verbose
 
 echo "Installing asdf plguin ..."
-./asdf.sh
+sh asdf.sh
 
-echo "link .zshrc"
+echo "link dotfiles"
 stow -v -d ~/dotfiles -t $HOME zsh git asdf
 
 exec $SHELL -l
