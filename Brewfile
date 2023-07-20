@@ -11,6 +11,7 @@ brew "yq"
 brew "stow"
 brew "gpg"
 
+cask "adobe-creative-cloud"
 cask "android-studio"
 cask "bitwarden"
 cask "chromedriver"
