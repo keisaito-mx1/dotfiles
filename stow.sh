@@ -1,1 +1,1 @@
-stow -v -d ~/dotfiles -t $HOME zsh git asdf starship
+stow --adopt -v -d ~/dotfiles/packages -t ~ zsh git asdf starship
