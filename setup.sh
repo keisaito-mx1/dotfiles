@@ -12,6 +12,6 @@ echo "Installing asdf plguin ..."
 sh asdf.sh
 
 echo "link dotfiles"
-stow -v -d ~/dotfiles -t $HOME zsh git asdf
+sh stow.sh
 
 exec $SHELL -l
