@@ -8,9 +8,6 @@ which /opt/homebrew/bin/brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https
 echo "Install Brewfile ..."
 which /opt/homebrew/bin/brew >/dev/null 2>&1 && brew bundle --file ./Brewfile --verbose
 
-echo "Installing asdf plguin ..."
-sh asdf.sh
-
 echo "link dotfiles"
 sh stow.sh
 
